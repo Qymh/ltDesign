@@ -1,0 +1,334 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background:whitesmoke;
+	height: 2300px;
+}
+
+.mybox{
+	position: absolute;
+	width: 1300px;
+	left: 30px;
+}
+
+nav{
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	background:white;
+	border-bottom-left-radius:50px ;
+	border-bottom-right-radius:50px ;
+	z-index: 233;
+	transition: all 0.2s ease-in-out;
+}
+nav>*{
+	padding: 10px;
+	padding-left: 20px;
+}
+
+nav .nav-focus{
+	color: deepskyblue;
+}
+nav .nav-introduce :first-child{
+	margin: 0;
+}
+nav .nav-introduce>li{
+	margin-top: 12px;
+	margin-left:35px ;
+	max-width: 100px;
+}
+nav .nav-introduce .nav-logo{
+	max-width: 300px;
+}
+nav .nav-introduce>li{
+	float: left;
+	font-family:"楷体";
+	font-size: 25px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+nav .nav-introduce>li:hover{
+	color:deepskyblue;
+	transition: all 0.2s ease-in-out;
+}
+nav .nav-introduce .nav-pis ul{
+}
+nav .nav-introduce .nav-pis li{
+	color: black;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	display: none;
+}
+nav .nav-introduce .nav-pis li:hover{
+	color: deepskyblue;
+}
+
+header .head-show{
+	position: absolute;
+	top: 150px;
+	left:5%;
+	width: 945px;
+	height: 400px;
+	overflow: hidden;
+}
+
+header .bigbox{
+	width: 945px;
+	position: absolute;
+}
+
+header .head-show ul{
+	width: 3000px;
+}
+
+header .head-show li{
+	float: left;
+	height: 400px;
+	width: 945px;
+}
+
+header .head-show img:hover{
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.aside-introduce{
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	right: 80px;
+	top: 160px;
+}
+.aside-introduce h1{
+	margin-bottom: 20px;
+	font-size: 25px;
+	width: 150px;
+	padding: 5px;
+	box-shadow: 0px 2px 1px 0px #00BFFF;
+}
+.aside-introduce h1:hover{
+	color: deepskyblue;
+}
+.aside-introduce article{
+	white-space: pre-wrap;
+	font-size: 15px;
+	line-height: 20px;
+}
+.aside-introduce img{
+	margin-top: 10px;
+	height: 150px;
+	width: 200px;
+	cursor: pointer;
+}
+
+.product-show{
+	position: absolute;
+	top: 650px;
+	width: 1074px;
+	left: 5%;
+}
+
+.product-show h1{
+	margin-bottom: 20px;
+	font-size: 25px;
+	width: 150px;
+	padding: 5px;
+	box-shadow: 0px 2px 1px 0px #00BFFF;
+}
+
+.product-show h1:hover{
+	color:deepskyblue;
+}
+
+.product-show li span{
+	opacity: 0;
+}
+
+.product-show ul li{
+	height: 300px;
+	width: 250px;
+	border: 1px solid pink;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.product-show ul li:hover{
+	border:1px solid pink;
+}
+.product-show .move{
+	height: 80px;
+	position: absolute;
+	width: 250px;
+	z-index: 3;
+	opacity: 0;
+	font-size: 15px;
+	line-height: 20px;
+	color: red;
+	text-align: center;
+	white-space: pre-wrap;
+	background-image: linear-gradient(180deg,#FFF,#666);
+	cursor: pointer;
+}
+.product-show .move:hover{
+	color:purple;
+}
+
+.call{
+	position: absolute;
+	right:50px;
+	top: 700px;
+	height:300px;
+	width: 300px;
+}
+
+.call span{
+	margin-left: 20px;
+	vertical-align:top;
+	line-height: 50px;
+	font-size: 20px;
+}
+
+.call .weixin-1{
+	color:limegreen;
+}
+
+.call .qq-1{
+	color: dodgerblue;
+}
+
+.call .tel-1{
+	color:darkorange;
+}
+
+.call h1{
+	margin-bottom: 20px;
+	font-size: 25px;
+	width: 230px;
+	padding: 5px;
+	box-shadow: 0px 2px 1px 0px #00BFFF;
+}
+
+.call h1:hover{
+	color: deepskyblue;
+}
+
+.call img{
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+}
+
+.address{
+	position: absolute;
+	right:50px;
+	top: 960px;
+	height:300px;
+	width: 300px;
+}
+
+.address h1{
+	margin-bottom: 20px;
+	font-size: 25px;
+	width: 230px;
+	padding: 5px;
+	box-shadow: 0px 2px 1px 0px #00BFFF;
+}
+
+.address h1:hover{
+	color: deepskyblue;
+}
+
+.address img{
+	height: 200px;
+	width: 230px;
+	cursor: pointer;
+}
+
+.article{
+	position: absolute;
+	right:50px;
+	top: 1250px;
+	height:300px;
+	width: 300px;
+}
+
+.article h1{
+	margin-bottom: 20px;
+	font-size: 25px;
+	width: 230px;
+	padding: 5px;
+	box-shadow: 0px 2px 1px 0px #00BFFF;
+}
+
+.article h1:hover{
+	color: deepskyblue;
+}
+
+.article ul li a{
+	font-size: 20px;
+	color: #666;
+	line-height: 30px;
+	text-decoration: none;
+}
+.article ul li a:hover{
+	color: blue;
+}
+
+.webbuy{
+	position: absolute;
+	right:50px;
+	top: 1450px;
+	height:300px;
+	width: 300px;
+}
+
+.webbuy h1{
+	margin-bottom: 20px;
+	font-size: 25px;
+	width: 230px;
+	padding: 5px;
+	box-shadow: 0px 2px 1px 0px #00BFFF;
+}
+.webbuy h1:hover{
+	color: deepskyblue;
+}
+
+.webbuy img{
+	height: 200px;
+	width: 230px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+footer{
+	position: absolute;
+	top: 2100px;
+	background: lightgray;
+	height: 100px;
+	border-radius: 30px;
+	width: 70%;
+	left:15%;
+	line-height: 11px;
+	color: gray;
+}
+
+footer ul{
+	margin-top: 40px;
+	margin-left: 30%;
+	font-size: 10px;
+}
+
+footer ul li{
+	margin-right: 5px;
+	float: left;
+	padding: 5px;
+	border-right: 1px dashed #666;
+	cursor: pointer;
+}
+footer .copyright{
+	font-size: 10px;
+	margin-left: 33%;
+}
